@@ -129,8 +129,6 @@ export default function App() {
           <a href="/" style={{ textDecoration: 'none' }}><PixiiLogo /></a>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             {result && <button onClick={handleReset} className="btn-outline" style={{ fontSize: 13 }}>↺ New listing</button>}
-            <a href="https://pixii.ai" target="_blank" rel="noopener noreferrer"
-              className="btn-primary" style={{ fontSize: 14, textDecoration: 'none', padding: '9px 20px' }}>Book a Demo</a>
           </div>
         </div>
       </header>

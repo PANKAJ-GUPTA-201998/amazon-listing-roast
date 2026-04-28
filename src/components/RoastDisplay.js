@@ -129,25 +129,6 @@ export default function RoastDisplay({ result }) {
         </div>
       </div>
 
-      {/* ── CTA ── */}
-      <a href="https://pixii.ai" target="_blank" rel="noopener noreferrer"
-        style={{ display: 'block', textDecoration: 'none', borderRadius: 14, background: 'var(--accent)', padding: '28px 32px', textAlign: 'center', transition: 'all 0.2s', boxShadow: '0 6px 28px rgba(191,68,25,0.25)' }}
-        onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-hov)'; e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 10px 36px rgba(191,68,25,0.32)'; }}
-        onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 6px 28px rgba(191,68,25,0.25)'; }}
-      >
-        <p style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.55)', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 6 }}>
-          Want this fixed automatically?
-        </p>
-        <p style={{ fontSize: 22, fontWeight: 900, color: '#fff', letterSpacing: '-0.5px', marginBottom: 6 }}>
-          AI that designs Amazon listings. Instantly.
-        </p>
-        <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', marginBottom: 18 }}>
-          7 editable visuals · A/B testing · Keyword research
-        </p>
-        <span style={{ display: 'inline-block', background: '#fff', color: 'var(--accent)', fontWeight: 800, fontSize: 14, padding: '10px 28px', borderRadius: 8, transition: 'transform 0.15s' }}>
-          Book a Demo →
-        </span>
-      </a>
     </div>
   );
 }
